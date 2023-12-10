@@ -16,6 +16,8 @@ catch(err){
     who.innerHTML = "amount is" + err
 }
 
- 
+ finally{
+    document.getElementById("why").value = ""
+ }
     
 }
