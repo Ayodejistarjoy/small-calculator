@@ -7,8 +7,8 @@ function me() {
 
 try{
     if(why.value == "") throw " empty"
-     if(why.value >=10000) throw " too big to dispense"
-     if(why.value <=1000) throw " too small to dispense"
+     if(why.value >=10000) throw " too big to dispense ❌💵"
+     if(why.value <=1000) throw " too small to dispense ❌ 💵"
     
 }
 catch(err){
